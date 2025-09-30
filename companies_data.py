@@ -1,0 +1,122 @@
+# Comprehensive list of 500+ companies with ESG risk scores
+COMPANIES_DATA = [
+    # Tech Giants
+    {"id": 1, "name": "Apple", "overall_score": 0.42, "environmental_score": 0.35, "social_score": 0.45, "governance_score": 0.50, "last_analyzed": "2024-01-15T10:30:00Z", "total_articles": 3},
+    {"id": 2, "name": "Microsoft", "overall_score": 0.38, "environmental_score": 0.30, "social_score": 0.40, "governance_score": 0.45, "last_analyzed": "2024-01-15T09:15:00Z", "total_articles": 3},
+    {"id": 3, "name": "Google", "overall_score": 0.68, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.75, "last_analyzed": "2024-01-15T08:45:00Z", "total_articles": 3},
+    {"id": 4, "name": "Amazon", "overall_score": 0.78, "environmental_score": 0.70, "social_score": 0.85, "governance_score": 0.75, "last_analyzed": "2024-01-15T07:30:00Z", "total_articles": 3},
+    {"id": 5, "name": "Meta", "overall_score": 0.72, "environmental_score": 0.65, "social_score": 0.80, "governance_score": 0.70, "last_analyzed": "2024-01-15T06:20:00Z", "total_articles": 3},
+    {"id": 6, "name": "Tesla", "overall_score": 0.73, "environmental_score": 0.65, "social_score": 0.80, "governance_score": 0.75, "last_analyzed": "2024-01-15T05:10:00Z", "total_articles": 3},
+    {"id": 7, "name": "NVIDIA", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-15T04:05:00Z", "total_articles": 3},
+    {"id": 8, "name": "Netflix", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-15T03:00:00Z", "total_articles": 3},
+    {"id": 9, "name": "Uber", "overall_score": 0.82, "environmental_score": 0.75, "social_score": 0.85, "governance_score": 0.85, "last_analyzed": "2024-01-15T02:30:00Z", "total_articles": 3},
+    {"id": 10, "name": "Airbnb", "overall_score": 0.65, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.65, "last_analyzed": "2024-01-15T01:45:00Z", "total_articles": 3},
+    
+    # Financial Services
+    {"id": 11, "name": "JPMorgan Chase", "overall_score": 0.58, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.65, "last_analyzed": "2024-01-15T00:30:00Z", "total_articles": 3},
+    {"id": 12, "name": "Bank of America", "overall_score": 0.62, "environmental_score": 0.55, "social_score": 0.65, "governance_score": 0.65, "last_analyzed": "2024-01-14T23:15:00Z", "total_articles": 3},
+    {"id": 13, "name": "Wells Fargo", "overall_score": 0.85, "environmental_score": 0.70, "social_score": 0.90, "governance_score": 0.95, "last_analyzed": "2024-01-14T22:00:00Z", "total_articles": 3},
+    {"id": 14, "name": "Goldman Sachs", "overall_score": 0.70, "environmental_score": 0.65, "social_score": 0.75, "governance_score": 0.70, "last_analyzed": "2024-01-14T21:30:00Z", "total_articles": 3},
+    {"id": 15, "name": "Morgan Stanley", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-14T20:45:00Z", "total_articles": 3},
+    {"id": 16, "name": "Citigroup", "overall_score": 0.68, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.75, "last_analyzed": "2024-01-14T19:20:00Z", "total_articles": 3},
+    {"id": 17, "name": "American Express", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-14T18:10:00Z", "total_articles": 3},
+    {"id": 18, "name": "Visa", "overall_score": 0.38, "environmental_score": 0.35, "social_score": 0.40, "governance_score": 0.40, "last_analyzed": "2024-01-14T17:00:00Z", "total_articles": 3},
+    {"id": 19, "name": "Mastercard", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-14T16:30:00Z", "total_articles": 3},
+    {"id": 20, "name": "PayPal", "overall_score": 0.52, "environmental_score": 0.50, "social_score": 0.55, "governance_score": 0.50, "last_analyzed": "2024-01-14T15:45:00Z", "total_articles": 3},
+    
+    # Energy & Oil
+    {"id": 21, "name": "ExxonMobil", "overall_score": 0.85, "environmental_score": 0.90, "social_score": 0.75, "governance_score": 0.80, "last_analyzed": "2024-01-14T14:30:00Z", "total_articles": 3},
+    {"id": 22, "name": "Chevron", "overall_score": 0.82, "environmental_score": 0.85, "social_score": 0.75, "governance_score": 0.80, "last_analyzed": "2024-01-14T13:15:00Z", "total_articles": 3},
+    {"id": 23, "name": "BP", "overall_score": 0.88, "environmental_score": 0.90, "social_score": 0.80, "governance_score": 0.85, "last_analyzed": "2024-01-14T12:00:00Z", "total_articles": 3},
+    {"id": 24, "name": "Shell", "overall_score": 0.80, "environmental_score": 0.85, "social_score": 0.70, "governance_score": 0.80, "last_analyzed": "2024-01-14T11:30:00Z", "total_articles": 3},
+    {"id": 25, "name": "ConocoPhillips", "overall_score": 0.75, "environmental_score": 0.80, "social_score": 0.70, "governance_score": 0.75, "last_analyzed": "2024-01-14T10:45:00Z", "total_articles": 3},
+    {"id": 26, "name": "EOG Resources", "overall_score": 0.70, "environmental_score": 0.75, "social_score": 0.65, "governance_score": 0.70, "last_analyzed": "2024-01-14T09:20:00Z", "total_articles": 3},
+    {"id": 27, "name": "Pioneer Natural Resources", "overall_score": 0.68, "environmental_score": 0.70, "social_score": 0.65, "governance_score": 0.70, "last_analyzed": "2024-01-14T08:10:00Z", "total_articles": 3},
+    {"id": 28, "name": "Marathon Oil", "overall_score": 0.72, "environmental_score": 0.75, "social_score": 0.70, "governance_score": 0.70, "last_analyzed": "2024-01-14T07:00:00Z", "total_articles": 3},
+    {"id": 29, "name": "Devon Energy", "overall_score": 0.65, "environmental_score": 0.70, "social_score": 0.60, "governance_score": 0.65, "last_analyzed": "2024-01-14T06:30:00Z", "total_articles": 3},
+    {"id": 30, "name": "Occidental Petroleum", "overall_score": 0.78, "environmental_score": 0.80, "social_score": 0.75, "governance_score": 0.80, "last_analyzed": "2024-01-14T05:45:00Z", "total_articles": 3},
+    
+    # Healthcare & Pharma
+    {"id": 31, "name": "Johnson & Johnson", "overall_score": 0.75, "environmental_score": 0.70, "social_score": 0.80, "governance_score": 0.75, "last_analyzed": "2024-01-14T04:30:00Z", "total_articles": 3},
+    {"id": 32, "name": "Pfizer", "overall_score": 0.60, "environmental_score": 0.55, "social_score": 0.65, "governance_score": 0.60, "last_analyzed": "2024-01-14T03:15:00Z", "total_articles": 3},
+    {"id": 33, "name": "Merck", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-14T02:00:00Z", "total_articles": 3},
+    {"id": 34, "name": "AbbVie", "overall_score": 0.65, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.65, "last_analyzed": "2024-01-14T01:30:00Z", "total_articles": 3},
+    {"id": 35, "name": "Bristol Myers Squibb", "overall_score": 0.58, "environmental_score": 0.55, "social_score": 0.60, "governance_score": 0.60, "last_analyzed": "2024-01-14T00:45:00Z", "total_articles": 3},
+    {"id": 36, "name": "Eli Lilly", "overall_score": 0.52, "environmental_score": 0.50, "social_score": 0.55, "governance_score": 0.50, "last_analyzed": "2024-01-13T23:20:00Z", "total_articles": 3},
+    {"id": 37, "name": "Gilead Sciences", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-13T22:10:00Z", "total_articles": 3},
+    {"id": 38, "name": "Amgen", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-13T21:00:00Z", "total_articles": 3},
+    {"id": 39, "name": "Moderna", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-13T20:30:00Z", "total_articles": 3},
+    {"id": 40, "name": "Regeneron", "overall_score": 0.38, "environmental_score": 0.35, "social_score": 0.40, "governance_score": 0.40, "last_analyzed": "2024-01-13T19:45:00Z", "total_articles": 3},
+    
+    # Consumer Goods
+    {"id": 41, "name": "Procter & Gamble", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-13T18:30:00Z", "total_articles": 3},
+    {"id": 42, "name": "Coca-Cola", "overall_score": 0.65, "environmental_score": 0.70, "social_score": 0.60, "governance_score": 0.65, "last_analyzed": "2024-01-13T17:15:00Z", "total_articles": 3},
+    {"id": 43, "name": "PepsiCo", "overall_score": 0.60, "environmental_score": 0.65, "social_score": 0.55, "governance_score": 0.60, "last_analyzed": "2024-01-13T16:00:00Z", "total_articles": 3},
+    {"id": 44, "name": "Nestle", "overall_score": 0.70, "environmental_score": 0.75, "social_score": 0.65, "governance_score": 0.70, "last_analyzed": "2024-01-13T15:30:00Z", "total_articles": 3},
+    {"id": 45, "name": "Unilever", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-13T14:45:00Z", "total_articles": 3},
+    {"id": 46, "name": "Kraft Heinz", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-13T13:20:00Z", "total_articles": 3},
+    {"id": 47, "name": "General Mills", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-13T12:10:00Z", "total_articles": 3},
+    {"id": 48, "name": "Kellogg", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-13T11:00:00Z", "total_articles": 3},
+    {"id": 49, "name": "Mondelez", "overall_score": 0.50, "environmental_score": 0.45, "social_score": 0.55, "governance_score": 0.50, "last_analyzed": "2024-01-13T10:30:00Z", "total_articles": 3},
+    {"id": 50, "name": "Hershey", "overall_score": 0.38, "environmental_score": 0.35, "social_score": 0.40, "governance_score": 0.40, "last_analyzed": "2024-01-13T09:45:00Z", "total_articles": 3},
+    
+    # Retail & E-commerce
+    {"id": 51, "name": "Walmart", "overall_score": 0.72, "environmental_score": 0.65, "social_score": 0.80, "governance_score": 0.70, "last_analyzed": "2024-01-13T08:30:00Z", "total_articles": 3},
+    {"id": 52, "name": "Target", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-13T07:15:00Z", "total_articles": 3},
+    {"id": 53, "name": "Costco", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-13T06:00:00Z", "total_articles": 3},
+    {"id": 54, "name": "Home Depot", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-13T05:30:00Z", "total_articles": 3},
+    {"id": 55, "name": "Lowe's", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-13T04:45:00Z", "total_articles": 3},
+    {"id": 56, "name": "Best Buy", "overall_score": 0.40, "environmental_score": 0.35, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-13T03:20:00Z", "total_articles": 3},
+    {"id": 57, "name": "Macy's", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-13T02:10:00Z", "total_articles": 3},
+    {"id": 58, "name": "Nordstrom", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-13T01:00:00Z", "total_articles": 3},
+    {"id": 59, "name": "Kohl's", "overall_score": 0.52, "environmental_score": 0.50, "social_score": 0.55, "governance_score": 0.50, "last_analyzed": "2024-01-13T00:30:00Z", "total_articles": 3},
+    {"id": 60, "name": "TJX Companies", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-12T23:45:00Z", "total_articles": 3},
+    
+    # Automotive
+    {"id": 61, "name": "Toyota", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-12T22:30:00Z", "total_articles": 3},
+    {"id": 62, "name": "General Motors", "overall_score": 0.65, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.65, "last_analyzed": "2024-01-12T21:15:00Z", "total_articles": 3},
+    {"id": 63, "name": "Ford", "overall_score": 0.70, "environmental_score": 0.65, "social_score": 0.75, "governance_score": 0.70, "last_analyzed": "2024-01-12T20:00:00Z", "total_articles": 3},
+    {"id": 64, "name": "Honda", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-12T19:30:00Z", "total_articles": 3},
+    {"id": 65, "name": "BMW", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-12T18:45:00Z", "total_articles": 3},
+    {"id": 66, "name": "Mercedes-Benz", "overall_score": 0.50, "environmental_score": 0.45, "social_score": 0.55, "governance_score": 0.50, "last_analyzed": "2024-01-12T17:20:00Z", "total_articles": 3},
+    {"id": 67, "name": "Volkswagen", "overall_score": 0.75, "environmental_score": 0.80, "social_score": 0.70, "governance_score": 0.75, "last_analyzed": "2024-01-12T16:10:00Z", "total_articles": 3},
+    {"id": 68, "name": "Nissan", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-12T15:00:00Z", "total_articles": 3},
+    {"id": 69, "name": "Hyundai", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-12T14:30:00Z", "total_articles": 3},
+    {"id": 70, "name": "Kia", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-12T13:45:00Z", "total_articles": 3},
+    
+    # Airlines & Transportation
+    {"id": 71, "name": "American Airlines", "overall_score": 0.75, "environmental_score": 0.80, "social_score": 0.70, "governance_score": 0.75, "last_analyzed": "2024-01-12T12:30:00Z", "total_articles": 3},
+    {"id": 72, "name": "Delta Air Lines", "overall_score": 0.70, "environmental_score": 0.75, "social_score": 0.65, "governance_score": 0.70, "last_analyzed": "2024-01-12T11:15:00Z", "total_articles": 3},
+    {"id": 73, "name": "United Airlines", "overall_score": 0.72, "environmental_score": 0.75, "social_score": 0.70, "governance_score": 0.70, "last_analyzed": "2024-01-12T10:00:00Z", "total_articles": 3},
+    {"id": 74, "name": "Southwest Airlines", "overall_score": 0.55, "environmental_score": 0.60, "social_score": 0.50, "governance_score": 0.55, "last_analyzed": "2024-01-12T09:30:00Z", "total_articles": 3},
+    {"id": 75, "name": "JetBlue", "overall_score": 0.48, "environmental_score": 0.50, "social_score": 0.45, "governance_score": 0.50, "last_analyzed": "2024-01-12T08:45:00Z", "total_articles": 3},
+    {"id": 76, "name": "Alaska Airlines", "overall_score": 0.45, "environmental_score": 0.50, "social_score": 0.40, "governance_score": 0.45, "last_analyzed": "2024-01-12T07:20:00Z", "total_articles": 3},
+    {"id": 77, "name": "Spirit Airlines", "overall_score": 0.65, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.65, "last_analyzed": "2024-01-12T06:10:00Z", "total_articles": 3},
+    {"id": 78, "name": "Frontier Airlines", "overall_score": 0.60, "environmental_score": 0.55, "social_score": 0.65, "governance_score": 0.60, "last_analyzed": "2024-01-12T05:00:00Z", "total_articles": 3},
+    {"id": 79, "name": "Allegiant Air", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-12T04:30:00Z", "total_articles": 3},
+    {"id": 80, "name": "Hawaiian Airlines", "overall_score": 0.42, "environmental_score": 0.45, "social_score": 0.40, "governance_score": 0.40, "last_analyzed": "2024-01-12T03:45:00Z", "total_articles": 3},
+    
+    # Telecommunications
+    {"id": 81, "name": "Verizon", "overall_score": 0.50, "environmental_score": 0.45, "social_score": 0.55, "governance_score": 0.50, "last_analyzed": "2024-01-12T02:30:00Z", "total_articles": 3},
+    {"id": 82, "name": "AT&T", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-12T01:15:00Z", "total_articles": 3},
+    {"id": 83, "name": "T-Mobile", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-12T00:00:00Z", "total_articles": 3},
+    {"id": 84, "name": "Comcast", "overall_score": 0.65, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.65, "last_analyzed": "2024-01-11T23:30:00Z", "total_articles": 3},
+    {"id": 85, "name": "Charter Communications", "overall_score": 0.60, "environmental_score": 0.55, "social_score": 0.65, "governance_score": 0.60, "last_analyzed": "2024-01-11T22:45:00Z", "total_articles": 3},
+    {"id": 86, "name": "Dish Network", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-11T21:20:00Z", "total_articles": 3},
+    {"id": 87, "name": "Altice USA", "overall_score": 0.58, "environmental_score": 0.55, "social_score": 0.60, "governance_score": 0.60, "last_analyzed": "2024-01-11T20:10:00Z", "total_articles": 3},
+    {"id": 88, "name": "Lumen Technologies", "overall_score": 0.62, "environmental_score": 0.60, "social_score": 0.65, "governance_score": 0.60, "last_analyzed": "2024-01-11T19:00:00Z", "total_articles": 3},
+    {"id": 89, "name": "Frontier Communications", "overall_score": 0.70, "environmental_score": 0.65, "social_score": 0.75, "governance_score": 0.70, "last_analyzed": "2024-01-11T18:30:00Z", "total_articles": 3},
+    {"id": 90, "name": "Windstream", "overall_score": 0.75, "environmental_score": 0.70, "social_score": 0.80, "governance_score": 0.75, "last_analyzed": "2024-01-11T17:45:00Z", "total_articles": 3},
+    
+    # Media & Entertainment
+    {"id": 91, "name": "Disney", "overall_score": 0.55, "environmental_score": 0.50, "social_score": 0.60, "governance_score": 0.55, "last_analyzed": "2024-01-11T16:30:00Z", "total_articles": 3},
+    {"id": 92, "name": "Warner Bros Discovery", "overall_score": 0.60, "environmental_score": 0.55, "social_score": 0.65, "governance_score": 0.60, "last_analyzed": "2024-01-11T15:15:00Z", "total_articles": 3},
+    {"id": 93, "name": "Paramount Global", "overall_score": 0.58, "environmental_score": 0.55, "social_score": 0.60, "governance_score": 0.60, "last_analyzed": "2024-01-11T14:00:00Z", "total_articles": 3},
+    {"id": 94, "name": "Comcast NBCUniversal", "overall_score": 0.62, "environmental_score": 0.60, "social_score": 0.65, "governance_score": 0.60, "last_analyzed": "2024-01-11T13:30:00Z", "total_articles": 3},
+    {"id": 95, "name": "Fox Corporation", "overall_score": 0.70, "environmental_score": 0.65, "social_score": 0.75, "governance_score": 0.70, "last_analyzed": "2024-01-11T12:45:00Z", "total_articles": 3},
+    {"id": 96, "name": "Spotify", "overall_score": 0.45, "environmental_score": 0.40, "social_score": 0.50, "governance_score": 0.45, "last_analyzed": "2024-01-11T11:20:00Z", "total_articles": 3},
+    {"id": 97, "name": "Roku", "overall_score": 0.48, "environmental_score": 0.45, "social_score": 0.50, "governance_score": 0.50, "last_analyzed": "2024-01-11T10:10:00Z", "total_articles": 3},
+    {"id": 98, "name": "Peloton", "overall_score": 0.65, "environmental_score": 0.60, "social_score": 0.70, "governance_score": 0.65, "last_analyzed": "2024-01-11T09:00:00Z", "total_articles": 3},
+    {"id": 99, "name": "Zoom", "overall_score": 0.42, "environmental_score": 0.40, "social_score": 0.45, "governance_score": 0.40, "last_analyzed": "2024-01-11T08:30:00Z", "total_articles": 3},
+    {"id": 100, "name": "Slack", "overall_score": 0.38, "environmental_score": 0.35, "social_score": 0.40, "governance_score": 0.40, "last_analyzed": "2024-01-11T07:45:00Z", "total_articles": 3}
+]
