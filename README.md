@@ -1,8 +1,8 @@
-# ESG Risk Analyzer MVP
+# ESG Risk Analyzer
 
 An AI-powered ESG (Environmental, Social, Governance) risk analyzer that scrapes company news, analyzes risk mentions with NLP, and ranks companies by ESG risk score on an intuitive dashboard.
 
-## 🎯 What It Does
+## What It Does
 
 - **News Analysis**: Scrapes (or mocks) recent news articles about companies
 - **AI-Powered NLP**: Uses sentiment analysis and named entity recognition to detect ESG-related events
@@ -10,7 +10,7 @@ An AI-powered ESG (Environmental, Social, Governance) risk analyzer that scrapes
 - **Interactive Dashboard**: Visualizes risk data with charts, tables, and detailed company breakdowns
 - **Real-time Updates**: Continuously analyzes new articles and updates risk scores
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI** - Modern Python web framework
@@ -31,7 +31,7 @@ An AI-powered ESG (Environmental, Social, Governance) risk analyzer that scrapes
 - **Docker** - Containerization
 - **Docker Compose** - Multi-container orchestration
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker and Docker Compose installed
@@ -58,7 +58,7 @@ This will:
 - **Backend API**: http://localhost:8000
 - **API Documentation**: http://localhost:8000/docs
 
-## 📊 Features
+## Features
 
 ### Dashboard
 - **Company Search**: Analyze any company by name
@@ -76,7 +76,7 @@ This will:
 - **Pie Charts**: Risk distribution overview
 - **Interactive Tables**: Detailed company breakdowns
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Analyze Company
 ```http
@@ -117,7 +117,7 @@ GET /api/companies
 GET /api/companies/{company_id}/details
 ```
 
-## 🏃‍♂️ Development Setup
+## Development Setup
 
 ### Backend Development
 ```bash
@@ -171,7 +171,7 @@ Ecoscope/
 └── README.md
 ```
 
-## 🎨 Screenshots
+## Screenshots
 
 ### Dashboard Overview
 ![Dashboard](https://via.placeholder.com/800x400/0ea5e9/ffffff?text=ESG+Risk+Dashboard)
@@ -182,7 +182,7 @@ Ecoscope/
 ### Risk Charts
 ![Risk Charts](https://via.placeholder.com/800x400/f59e0b/ffffff?text=Risk+Visualization)
 
-## 🔍 How It Works
+## How It Works
 
 ### 1. News Collection
 - Scrapes recent news articles about the target company
@@ -205,7 +205,7 @@ Ecoscope/
 - Stores companies, articles, events, and risk scores
 - Supports historical tracking and trend analysis
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - **Real News APIs**: Integration with news services (NewsAPI, Google News)
 - **Advanced NLP**: Custom ESG-specific models
@@ -216,7 +216,7 @@ Ecoscope/
 - **User Authentication**: Multi-user support
 - **API Rate Limiting**: Production-ready scaling
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -224,11 +224,11 @@ Ecoscope/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -236,7 +236,7 @@ If you encounter any issues or have questions:
 2. Create a new issue with detailed information
 3. Include error logs and steps to reproduce
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with FastAPI and Next.js
 - NLP powered by spaCy and TextBlob
