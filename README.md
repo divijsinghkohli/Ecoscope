@@ -172,15 +172,12 @@ Ecoscope/
 ```
 
 ## Screenshots
+<p align="center">
+  <img src="docs/landing.png" width="80%" />
+  <img src="docs/dashboard.png" width="80%" />
+  <img src="docs/comp.png" width="80%" />
+</p>
 
-### Landing
-![Landing]("docs/landing.png")
-
-### Dashboard
-![Dashboard]("docs/dashboard.png")
-
-### Risk Charts
-![Risk Charts]("docs/comp.png")
 
 ## How It Works
 
