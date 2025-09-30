@@ -135,7 +135,7 @@ npm install
 npm run dev
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Ecoscope/
@@ -173,14 +173,14 @@ Ecoscope/
 
 ## Screenshots
 
-### Dashboard Overview
-![Dashboard](https://via.placeholder.com/800x400/0ea5e9/ffffff?text=ESG+Risk+Dashboard)
+### Landing
+![Landing]("docs/landing.png")
 
-### Company Analysis
-![Company Analysis](https://via.placeholder.com/800x400/10b981/ffffff?text=Company+Risk+Analysis)
+### Dashboard
+![Dashboard]("docs/dashboard.png")
 
 ### Risk Charts
-![Risk Charts](https://via.placeholder.com/800x400/f59e0b/ffffff?text=Risk+Visualization)
+![Risk Charts]("docs/comp.png")
 
 ## How It Works
 
